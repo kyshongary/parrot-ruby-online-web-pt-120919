@@ -6,7 +6,7 @@ def parrot
   returns = "Squawk!"
 end
 
-def parrot(phrase="Squawk!", return="Squawk!")
-  puts "#{phrase}"
+def parrot(phrase="Squawk!", returns="Squawk!")
+  puts "#{phrase}", "#{returns}"
   "Pretty bird!"
 end
