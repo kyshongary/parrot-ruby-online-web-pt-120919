@@ -8,6 +8,6 @@ end
 
 def parrot(phrase = "Squawk!")
   puts "#{phrase}"
-  returns = "#{phrase}"
+  return = "#{phrase}"
   "Pretty bird!"
 end
